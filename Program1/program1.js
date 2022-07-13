@@ -10,13 +10,17 @@ button.addEventListener('click', func);
 function func() { 
     var number1 = document.getElementById("number1").value;
     var number2 = document.getElementById("number2").value;
-    
-
+    var calc = 9;
     if (number1 > number2) {
-        number1 = bigger
+        calc = number1;
     } else {
-        number2 = bigger
+        calc = number2;
     }
 
-    bigger.innerHTML = bigger;
+
+
+
+    bigger.innerHTML = calc;
 }
+
+

@@ -40,7 +40,7 @@ a {
     font-family: 'Roboto-Light', sans-serif;
     text-decoration: none;
 }
-#side, .submit, #numb1, #substract {
+#side, .submit, #numb1, #substract, #number1, #number2 {
     color: rgb(255, 255, 255);
     font-family: 'Playfair Display', serif;
     font-size: 3vw;
