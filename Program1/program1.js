@@ -16,10 +16,6 @@ function func() {
     } else {
         calc = number2;
     }
-
-
-
-
     bigger.innerHTML = calc;
 }
 
