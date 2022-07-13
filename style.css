@@ -107,3 +107,19 @@ p {
     justify-content: center;
     align-items: center;
 }
+
+h4 {
+    font-size: 3vw;
+    font-family: 'Playfair Display', 'Roboto Light';
+    color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.games .link {
+    color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vw;
+}
