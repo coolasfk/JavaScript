@@ -1,0 +1,109 @@
+* {
+    color: white;
+}
+
+.header {
+    display: flex;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+h2 {
+    font-family: 'Roboto Light', sans-serif;
+    font-size: 1.5vw;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 5vw;
+}
+
+    .links {
+    font-family: 'Roboto-Light', sans-serif;
+    font-size: 1.5vw;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2vw 2vw;
+    text-decoration: none;
+    color: white;
+}
+.links:hover, a:hover {
+    color: deeppink;
+    text-decoration: line-through;
+}
+a {
+    padding: 1vw;
+    font-family: 'Roboto-Light', sans-serif;
+    text-decoration: none;
+}
+#side, .submit, #numb1, #substract {
+    color: rgb(255, 255, 255);
+    font-family: 'Playfair Display', serif;
+    font-size: 3vw;
+    padding: 2vw;
+    background: transparent;
+    border: 3px solid white;
+    margin: 1vw;
+}
+button {
+    color: rgb(255, 255, 255);
+    background: transparent;
+    border: none;
+    font-family: 'Roboto Light', sans-serif;
+    margin: 1vw;
+}
+#back {
+    
+    display: flex;
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto-Light', sans-serif;
+    font-size: 1vw;
+    align-items: left;
+    text-align: left;
+   
+    padding: -10% 100px -10 0;
+    background-color: blue; 
+}
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#press {
+    color: white;
+    padding: 1vw 1vw 1vw 1vw;
+    font-size: 5vw;
+}
+#demo {
+    font-size: 3vw;
+    font-family: 'Playfair Display', 'Roboto Light';
+    padding: -1vw 0 3vw 0;
+    margin: -1vw 0 3vw 0;
+}
+p {
+    font-family: 'Roboto Light', sans-serif;
+    font-size: 1.5vw;
+}
+
+ #side1, #side2, #side3, #r {
+    color: rgb(255, 255, 255);
+    font-family: 'Playfair Display', serif;
+    font-size: 3vw;
+    padding: 1vw;
+    background: transparent;
+    border: 3px solid white;
+    margin: 1vw;
+    width: 12vw;
+}
+
+#circum, #surface {
+    font-size: 3vw;
+    font-family: 'Playfair Display', 'Roboto Light';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
