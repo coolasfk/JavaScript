@@ -1,7 +1,7 @@
 
 var computer = document.getElementById('demo');
 var you = document.getElementById('demo2');
-var button = document.getElementById('press');
+var button = document.getElementById('press1');
 var result = document.getElementById('result');
 
 const list = ["rock", "paper", "scissors"];
@@ -21,19 +21,19 @@ function func() {
     computer.innerHTML = item2;
 
     if(item == "scissors" && item2 == "scissors") {
-        result.innerHTML = 'its a draw!'
+        result.innerHTML = 'Try again!'
     } else if (item == "rock" && item2 == "rock") {
-        result.innerHTML = 'its a draw!'
+        result.innerHTML = 'Try again!'
     } else if (item == "paper" && item2 == "paper") {
-        result.innerHTML = 'its a draw!'
+        result.innerHTML = 'Try again!'
     } else if (item == "rock" && item2 == "scissors") {
-        result.innerHTML = 'Congrats! You beated the comp up!'
+        result.innerHTML = 'Congrats! You WON!'
     } else if (item == "scissors" && item2 == "paper") {
-        result.innerHTML = 'Congrats! You beated the comp up!'
+        result.innerHTML = 'Congrats! You WON!'
     } else if (item == "paper" && item2 == "rock") {
-        result.innerHTML = 'Congrats! You beated the comp up!'
+        result.innerHTML = 'Congrats! You WON!'
     } else {
-        result.innerHTML = 'Computer beat you up lol!'
+        result.innerHTML = 'Computer beat you up, you loser!'
     }
 
 }
