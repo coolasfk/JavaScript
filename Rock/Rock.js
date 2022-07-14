@@ -1,6 +1,5 @@
 
-var computer = document.getElementById('demo');
-var you = document.getElementById('demo2');
+var oponnent = document.getElementById('demo2');
 var button = document.getElementById('press1');
 var result = document.getElementById('result');
 
@@ -15,10 +14,22 @@ button.addEventListener('click', func);
 
 
 function func() {
-    var item = list[Math.floor(Math.random() * list.length)];
+    var item = document.getElementById('you').value;
     you.innerHTML = item;
+
+    if (item == ''){
+        result.innerHTML = "wrong input";
+        return false;
+    } 
+
+    if (item !== 'paper' && item !== 'scissors' && item !== 'rock'){
+        result.innerHTML = "wrong input";
+        return false;
+    } 
+
+
     var item2 = list[Math.floor(Math.random() * list.length)];
-    computer.innerHTML = item2;
+    oponnent.innerHTML = item2;
 
     if(item == "scissors" && item2 == "scissors") {
         result.innerHTML = 'Try again!'
