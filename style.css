@@ -31,7 +31,7 @@ h1 {
     text-decoration: none;
     color: white;
 }
-.links:hover, a:hover {
+.links:hover, a:hover, .link:hover {
     color: deeppink;
     text-decoration: line-through;
 }
@@ -122,6 +122,7 @@ h4 {
     justify-content: center;
     align-items: center;
     font-size: 1.5vw;
+    padding: 1vw 0 2vw 0;
 }
 
  .you {
@@ -146,4 +147,14 @@ h4 {
     border: 3px solid white;
     margin: 1vw;
     width: 60vw;
+}
+
+.game {
+    
+    padding: 2vw 0 2vw 0;
+}
+
+.game .link:hover, .games .link:hover {
+    color: deeppink;
+    text-decoration: line-through;
 }
