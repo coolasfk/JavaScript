@@ -2,6 +2,7 @@
 
 var bigger = document.getElementById('demo');
 var button = document.getElementById("press");
+var odd = document.getElementById('odd');
 
 
 
@@ -17,6 +18,12 @@ function func() {
         calc = number2;
     }
     bigger.innerHTML = calc;
+   
+    if (calc % 2 == 0 ) {
+        odd.innerHTML = 'The number is even'
+    } else {
+        odd.innerHTML = 'The number is odd';
+    }
 }
 
 
