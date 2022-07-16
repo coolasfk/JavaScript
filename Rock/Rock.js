@@ -20,7 +20,7 @@ function func() {
     } 
 
   
-    var item2 = list[Math.floor(Math.random() * list.length)];
+    var item2 = list[(Math.random() * list.length)];
     oponnent.innerHTML = item2;
 
     if(item == "scissors" && item2 == "scissors") {
